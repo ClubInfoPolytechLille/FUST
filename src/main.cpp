@@ -1,8 +1,8 @@
 /* Programme principal */
 
-#include <iostream>
+#include "test.hpp"
 
 int main() {
-    std::cout << "Hello world!" << std::endl;
+    helloWorld();
     return 0;
 }
