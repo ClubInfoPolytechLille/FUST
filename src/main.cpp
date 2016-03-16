@@ -3,6 +3,6 @@
 #include "test.hpp"
 
 int main() {
-    helloWorld();
+    helloWorld(4);
     return 0;
 }
