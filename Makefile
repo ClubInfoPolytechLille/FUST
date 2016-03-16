@@ -7,7 +7,7 @@ CXX = g++
 main: bin/main
 
 # Éxecutables
-bin/main: obj/main.o
+bin/main: obj/main.o obj/test.o obj/testClasse.o
 	$(CXX) $^ -o $@ $(CXXFLAGS)
 
 # Objets
