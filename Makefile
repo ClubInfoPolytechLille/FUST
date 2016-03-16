@@ -1,13 +1,13 @@
 # Variables
 ## Compilation
 CXX = g++
-#CXXFLAGS = -lsfml-graphics -lsfml-window -lsfml-system
+CXXFLAGS = -lsfml-graphics -lsfml-window -lsfml-system
 
 # Programmes possibles
 main: bin/main
 
 # Éxecutables
-bin/main: obj/main.o obj/test.o obj/testClasse.o
+bin/main: obj/main.o obj/test.o obj/testClasse.o obj/sfmlTest.o
 	$(CXX) $^ -o $@ $(CXXFLAGS)
 
 # Objets
